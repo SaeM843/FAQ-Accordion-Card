@@ -1,6 +1,5 @@
 @use "./variables" as var;
 
 body {
-    background:#ffc0cb;
-    color:red;
+    background: linear-gradient(-20deg, var.$soft-violet 0%, var.$soft-blue 100%);
 }
