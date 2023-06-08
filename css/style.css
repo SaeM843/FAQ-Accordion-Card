@@ -26,6 +26,16 @@ main {
   align-items: center;
   background: white;
   border-radius: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.faq {
+  width: 50%;
+  border: 1px solid blue;
+}
+
+picture {
+  border: 1px solid pink;
 }
 
 /*# sourceMappingURL=style.css.map */
