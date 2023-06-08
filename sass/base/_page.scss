@@ -1,9 +1,14 @@
 @use "../config/variables" as var;
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: var.$theme-text-font;
     font-size: 12px;
     min-height: 100vh;
-    box-sizing: border-box;
     background: linear-gradient(-20deg, var.$soft-blue 0%, var.$soft-violet 100%);
 }
