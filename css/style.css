@@ -28,11 +28,11 @@ main {
 }
 
 .faq {
-  width: 50%;
   border: 1px solid blue;
 }
 
 picture {
+  width: 50%;
   border: 1px solid pink;
 }
 
