@@ -10,5 +10,8 @@ body {
     font-family: var.$theme-text-font;
     font-size: 12px;
     min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    place-items: center;
     background: linear-gradient(-20deg, var.$soft-blue 0%, var.$soft-violet 100%);
 }

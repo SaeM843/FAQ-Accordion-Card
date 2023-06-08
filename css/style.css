@@ -9,12 +9,16 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 12px;
   min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  place-items: center;
   background: linear-gradient(-20deg, hsl(240, 73%, 65%) 0%, hsl(273, 75%, 66%) 100%);
 }
 
 .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: white;
 }
 
