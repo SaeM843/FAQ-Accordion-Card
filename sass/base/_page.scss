@@ -1,6 +1,7 @@
-@use "./config/variables" as var;
+@use "../config/variables" as var;
 
 body {
+    min-height: 100vh;
     box-sizing: border-box;
     background: linear-gradient(-20deg, var.$soft-blue 0%, var.$soft-violet 100%);
 }

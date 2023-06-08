@@ -1,17 +1,8 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @use "./page"
- *   | ^^^^^^^^^^^^^
- *   '
- *   sass/style.scss 1:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @use \"./page\"\a   \2502  ^^^^^^^^^^^^^\a   \2575 \a   sass/style.scss 1:1  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background: linear-gradient(-20deg, hsl(240, 73%, 65%) 0%, hsl(273, 75%, 66%) 100%);
 }
+
+/*# sourceMappingURL=style.css.map */

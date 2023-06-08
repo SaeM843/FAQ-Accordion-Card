@@ -1,1 +1,2 @@
-@use "./page"
+@use "./config/variables" as var;
+@use "./base/page";
