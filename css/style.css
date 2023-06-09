@@ -43,12 +43,19 @@ body {
   background-repeat: no-repeat;
   background-size: 190%;
   background-position: -698px -354px;
+  position: relative;
 }
 
 .woman {
   position: relative;
   top: 90px;
   left: -76px;
+}
+
+.box {
+  position: relative;
+  top: -324px;
+  left: -96px;
 }
 
 /*# sourceMappingURL=style.css.map */
