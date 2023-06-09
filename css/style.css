@@ -24,7 +24,14 @@ body {
 }
 
 .faq {
-  width: 50%;
+  flex: 1 1 0;
+  padding: 0;
+  margin: 5rem 4rem 5rem 0rem;
+}
+.faq h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .img-container {
