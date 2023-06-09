@@ -1,10 +1,15 @@
 main {
-    max-width: 65%;
+    height: 509px;
+    width: 920px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+   justify-content: center;
+   align-items: center;
     background: white;
     border-radius: 1.5rem;
 }
