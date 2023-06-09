@@ -1,3 +1,5 @@
+@use "../config/variables" as var;
+
 .faq {
     flex: 1 1 0;
     padding: 0;
@@ -8,6 +10,10 @@
         font-size: 2rem;
         margin-bottom: 2rem;
     }
+}
+
+.dropdown {
+    border-bottom: 1px solid var.$light-grayish-blue;
 }
 
 
