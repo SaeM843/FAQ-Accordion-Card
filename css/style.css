@@ -27,4 +27,15 @@ main {
   border-radius: 1.5rem;
 }
 
+.img-container {
+  background-image: url("../../images/bg-pattern-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 270px;
+  height: 500px;
+  position: relative;
+  z-index: 10;
+}
+
 /*# sourceMappingURL=style.css.map */
