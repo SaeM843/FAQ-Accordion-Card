@@ -17,8 +17,7 @@ body {
 }
 
 main {
-  height: 509px;
-  width: 920px;
+  max-width: 65%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,36 +25,9 @@ main {
 
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   background: white;
   border-radius: 1.5rem;
-}
-
-.faq {
-  border: 1px solid blue;
-  padding: 3rem 5rem;
-}
-
-picture {
-  width: 50%;
-  border: 1px solid pink;
-}
-
-.img-container {
-  background-image: url("../../images/bg-pattern-desktop.svg");
-  background-size: cover;
-}
-
-.woman {
-  position: absolute;
-  height: 170px;
-  top: 12.5rem;
-  left: 2rem;
-}
-
-.pattern {
-  height: 170px;
 }
 
 /*# sourceMappingURL=style.css.map */
