@@ -37,4 +37,10 @@ picture {
   border: 1px solid pink;
 }
 
+.pattern {
+  width: 270px;
+  height: 500px;
+  background-position: top right;
+}
+
 /*# sourceMappingURL=style.css.map */
