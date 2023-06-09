@@ -1,8 +1,15 @@
-img-container {
+.img-container {
+    background-image: url("../../images/bg-pattern-desktop.svg");
+    background-size: cover;
+}
+
+.woman {
     position: absolute;
+    height: 170px;
+    top: 12.5rem;
+    left: 2rem;
 }
 
 .pattern {
-    position: relative;
-    top: -50%;
+    height: 170px;
 }
