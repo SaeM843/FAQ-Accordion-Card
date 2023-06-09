@@ -38,10 +38,12 @@ picture {
 }
 
 .img-container {
-  background-image: url("../../images/bg-pattern-desktop.svg");
-  width: 270px;
-  height: 500px;
-  background-position: center;
+  background-image: url("../../images/illustration-woman-online-desktop.svg"), url("../../images/bg-pattern-desktop.svg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 710% 52%, 122% 62%;
+  background-size: 102.5%, 170%;
 }
 
 /*# sourceMappingURL=style.css.map */
