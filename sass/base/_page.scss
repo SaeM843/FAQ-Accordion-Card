@@ -16,3 +16,10 @@ body {
     align-items: center;
     background: linear-gradient(-20deg, var.$soft-blue 0%, var.$soft-violet 100%);
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-radius: 1.5rem;
+}
