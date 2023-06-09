@@ -1,0 +1,17 @@
+.img-container {
+    flex: 1 1 0;
+    position: relative;
+}
+
+.img-container-mobile {
+    display: none;
+}
+
+.img-container-desktop {
+    overflow: hidden;
+    background-image: url("../images/bg-pattern-desktop.svg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 190%;
+    background-position: -698px -354px;
+}

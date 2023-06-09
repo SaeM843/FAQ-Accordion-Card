@@ -16,23 +16,33 @@ body {
   position: relative;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .container {
-  max-width: 65%;
+  margin: 2rem 0;
   background: white;
   border-radius: 1.5rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .faq {
   width: 50%;
+}
+
+.img-container {
+  flex: 1 1 0;
+  position: relative;
+}
+
+.img-container-mobile {
+  display: none;
+}
+
+.img-container-desktop {
+  overflow: hidden;
+  background-image: url("../images/bg-pattern-desktop.svg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 190%;
+  background-position: -698px -354px;
 }
 
 /*# sourceMappingURL=style.css.map */
