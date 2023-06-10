@@ -22,6 +22,12 @@
     .question {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+
+        p {
+            color: var.$dark-grayish-blue;
+            font-weight: 400;
+        }
     }
 }
 
