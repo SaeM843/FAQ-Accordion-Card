@@ -67,8 +67,8 @@ body {
   background-image: url("../images/bg-pattern-desktop.svg");
   height: 100%;
   background-repeat: no-repeat;
-  background-size: 207%;
-  background-position: -557px -218px;
+  background-size: 250%;
+  background-position: -622px -304px;
   position: relative;
 }
 
@@ -81,9 +81,9 @@ body {
 
 .box {
   position: relative;
-  top: -379px;
-  left: -103px;
-  width: 46%;
+  top: -333px;
+  left: -97px;
+  width: 49%;
 }
 
 /*# sourceMappingURL=style.css.map */
