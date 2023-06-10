@@ -27,7 +27,7 @@ body {
 .faq {
   flex: 1 1 0;
   padding: 0;
-  margin: 5rem 6rem 5rem 0rem;
+  margin: 5rem 6rem 5rem 8rem;
 }
 .faq h1 {
   font-weight: 700;
