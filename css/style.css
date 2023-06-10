@@ -37,6 +37,9 @@ body {
 .dropdown {
   border-bottom: 1px solid hsl(240, 5%, 91%);
 }
+.dropdown .hidden {
+  display: none;
+}
 
 .img-container {
   flex: 1 1 0;
