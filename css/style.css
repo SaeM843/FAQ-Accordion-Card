@@ -27,7 +27,7 @@ body {
 .faq {
   flex: 1 1 0;
   padding: 0;
-  margin: 5rem 4rem 5rem 0rem;
+  margin: 5rem 6rem 5rem 0rem;
 }
 .faq h1 {
   font-weight: 700;
@@ -35,20 +35,20 @@ body {
   margin-bottom: 2rem;
 }
 
-.dropdown {
+.dropdowns .dropdown {
   border-bottom: 1px solid hsl(240, 5%, 91%);
 }
-.dropdown .hidden {
+.dropdowns .dropdown .hidden {
   display: none;
 }
-.dropdown .question {
+.dropdowns .dropdown .question {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   margin: 1rem 0;
   font-size: 1rem;
 }
-.dropdown .question p {
+.dropdowns .dropdown .question p {
   color: hsl(240, 6%, 50%);
   font-weight: 400;
 }
