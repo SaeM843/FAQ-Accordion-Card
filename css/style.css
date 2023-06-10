@@ -81,8 +81,9 @@ body {
 
 .box {
   position: relative;
-  top: -324px;
-  left: -96px;
+  top: -379px;
+  left: -103px;
+  width: 46%;
 }
 
 /*# sourceMappingURL=style.css.map */
