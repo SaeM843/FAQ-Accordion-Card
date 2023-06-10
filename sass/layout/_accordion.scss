@@ -18,6 +18,11 @@
     .hidden {
         display: none;
     }
+
+    .question {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 
