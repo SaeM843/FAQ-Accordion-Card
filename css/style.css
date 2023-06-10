@@ -86,4 +86,8 @@ body {
   width: 49%;
 }
 
+.arrow {
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
