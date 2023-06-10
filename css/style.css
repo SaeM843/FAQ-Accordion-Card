@@ -45,7 +45,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   font-size: 1rem;
 }
 .dropdowns .dropdown .question p {
