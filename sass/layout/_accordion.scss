@@ -20,6 +20,7 @@
     
         .hidden {
             display: none;
+
         }
     
         .question {
@@ -39,6 +40,9 @@
 
 }
 
+.answer .active {
+    display: block;
+}
 
 
 
