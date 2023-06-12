@@ -21,10 +21,19 @@
         .hidden {
             max-height: 0;
             overflow: hidden;
+            transition: 1.4s cubic-bezier(0.68, -0.55, 0.27, 1.55)
         }
 
         &.active .hidden {
             max-height: 300px;
+            color: var.$dark-grayish-blue;
+            font-size: 0.8rem;
+            padding-bottom: 2rem;
+        }
+
+        &.active img {
+            transform: rotate(180deg);
+            transition: transform 0.5s ease-in;
         }
     
         .question {
