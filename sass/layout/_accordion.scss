@@ -21,7 +21,10 @@
         .hidden {
             max-height: 0;
             overflow: hidden;
+        }
 
+        &.active .hidden {
+            max-height: 300px;
         }
     
         .question {
@@ -39,8 +42,4 @@
         }
     }
 
-}
-
-.dropdown.active .hidden {
-    max-height: 300px;
 }

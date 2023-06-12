@@ -42,6 +42,9 @@ body {
   max-height: 0;
   overflow: hidden;
 }
+.dropdowns .dropdown.active .hidden {
+  max-height: 300px;
+}
 .dropdowns .dropdown .question {
   display: flex;
   justify-content: space-between;
@@ -52,10 +55,6 @@ body {
 .dropdowns .dropdown .question p {
   color: hsl(240, 6%, 50%);
   font-weight: 400;
-}
-
-.dropdown.active .hidden {
-  max-height: 300px;
 }
 
 .img-container {
