@@ -21,7 +21,7 @@
         .hidden {
             max-height: 0;
             overflow: hidden;
-            transition: 1.4s cubic-bezier(0.68, -0.55, 0.27, 1.55)
+            transition: 1s cubic-bezier(0.68, -0.55, 0.27, 1.55)
         }
 
         &.active .hidden {
@@ -34,6 +34,11 @@
         &.active img {
             transform: rotate(180deg);
             transition: transform 0.5s ease-in;
+        }
+
+        &.active .question p {
+            font-weight: 700;
+            color: var.$very-dark-grayish-blue;
         }
     
         .question {
