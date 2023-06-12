@@ -17,7 +17,11 @@
 
     .dropdown {
         border-bottom: 1px solid var.$light-grayish-blue;
-    
+
+        &:hover {
+            cursor: pointer;
+        }
+
         .hidden {
             max-height: 0;
             overflow: hidden;
@@ -47,6 +51,7 @@
             align-items: flex-start;
             margin: 1.5rem 0;
             font-size: 1rem;
+
     
             p {
                 color: var.$dark-grayish-blue;
