@@ -1,8 +1,8 @@
-const questions = document.querySelectorAll(".question");
-const answerOutput = document.querySelector(".hidden");
+const dropdowns = document.querySelectorAll(".dropdown");
 
-questions.forEach((question) => {
-    question.addEventListener("click", () => {
-        answerOutput.classList.toggle("active");
+
+dropdowns.forEach((dropdown) => {
+    dropdown.addEventListener("click", () => {
+        dropdown.classList.toggle("active")
     });
 });
