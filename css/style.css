@@ -39,7 +39,8 @@ body {
   border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 .dropdowns .dropdown .hidden {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
 }
 .dropdowns .dropdown .question {
   display: flex;
@@ -51,16 +52,6 @@ body {
 .dropdowns .dropdown .question p {
   color: hsl(240, 6%, 50%);
   font-weight: 400;
-}
-
-.answer {
-  display: inline;
-  padding-bottom: 1.5rem;
-  padding-right: 20px;
-  margin-top: -1.5rem;
-  padding-bottom: 3rem;
-  font-size: 1rem;
-  color: var(--very-dark-grayish-blue);
 }
 
 .img-container {

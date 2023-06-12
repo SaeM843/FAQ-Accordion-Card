@@ -19,7 +19,8 @@
         border-bottom: 1px solid var.$light-grayish-blue;
     
         .hidden {
-            display: none;
+            max-height: 0;
+            overflow: hidden;
 
         }
     
@@ -39,16 +40,4 @@
     }
 
 }
-
-.answer {
-    display: inline;
-    padding-bottom: 1.5rem;
-  padding-right: 20px;
-  margin-top: -1.5rem;
-  padding-bottom: 3rem;
-  font-size: 1rem;
-  color: var(--very-dark-grayish-blue);
-}
-
-
 

@@ -1,10 +1,8 @@
 const questions = document.querySelectorAll(".question");
-
+const answerOutput = document.querySelector(".hidden");
 
 questions.forEach((question) => {
     question.addEventListener("click", () => {
-        const answerOutput = question.querySelector(".answer");
-
         answerOutput.classList.toggle("active");
     });
 });
